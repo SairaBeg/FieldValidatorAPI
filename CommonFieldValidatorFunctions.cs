@@ -68,7 +68,7 @@ namespace FieldValidatorAPI
             }
         }
 
-        //Methods for delagates
+        //Methods for delagates to reference
         private static bool RequiredFieldValid(string fieldVal)
         {
             if (!string.IsNullOrEmpty(fieldVal))
